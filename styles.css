@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #f4f6f9;
+  color: #333;
+}
+
+/* NAVBAR */
+header {
+  background: #0b2c4d;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+nav a {
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
+  url("https://images.unsplash.com/photo-1581090700227-1e37b190418e");
+  background-size: cover;
+  background-position: center;
+  padding: 80px 40px;
+  color: white;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 36px;
+}
+
+.hero p {
+  margin: 15px 0 25px;
+  font-size: 18px;
+}
+
+.btn {
+  background: #f9b233;
+  padding: 12px 25px;
+  color: #000;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* SECCIONES */
+section {
+  padding: 60px 40px;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 28px;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,.1);
+}
+
+.price {
+  color: #0b2c4d;
+  font-weight: bold;
+}
+
+/* FORM */
+form {
+  max-width: 600px;
+  margin: auto;
+}
+
+form input, form textarea, form button {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 12px;
+}
+
+form button {
+  background: #0b2c4d;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* TESTIMONIOS */
+.testimonial {
+  background: #fff;
+  padding: 20px;
+  border-left: 5px solid #f9b233;
+}
+
+/* FOOTER */
+footer {
+  background: #0b2c4d;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
